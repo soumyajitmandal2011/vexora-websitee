@@ -1,0 +1,36 @@
+/* VEXORA cinematic design finish — appended after legacy layers intentionally */
+:root{--v3-lime:#a78bfa;--v4-ink:#f5f2ff;--v4-muted:#aaa4bb;--v3-line:rgba(211,194,255,.14)}
+html{background:#07060b;color:#f4f0fb;scroll-behavior:smooth}
+body{background:#07060b;color:#f4f0fb}
+.header{background:rgba(7,6,11,.72)!important;border-color:rgba(211,194,255,.14)!important;backdrop-filter:blur(22px)}
+.wordmark,.desktop-nav a,.mobile-nav a{color:#f4f0fb!important}
+.hero{background:radial-gradient(ellipse at 76% 44%,rgba(91,55,158,.17),transparent 38%),linear-gradient(118deg,#09080e 0%,#08070d 55%,#0b0914 100%)!important;overflow:hidden}
+.hero-grid{opacity:.2!important;background-image:linear-gradient(rgba(183,157,255,.12) 1px,transparent 1px),linear-gradient(90deg,rgba(183,157,255,.12) 1px,transparent 1px)!important;mask-image:radial-gradient(ellipse at 70% 45%,#000,transparent 72%)!important}
+.hero-title,.hero-title .title-line,.display-heading,.page-hero h1{color:#f5f1ff!important}
+.title-indent{-webkit-text-stroke:1px rgba(230,221,255,.72)!important;color:transparent!important}
+.title-accent,.title-accent .period,.display-heading em{color:#a78bfa!important}
+.hero-description,.intro-copy,.section-title-row>p,.about-copy p,.why-copy,.collab-content>p,.contact-copy>p{color:#b7b0c8!important}
+.eyebrow,.section-meta,.hero-foot,.hero-side-label,.hero-foot a{color:#a49ab8!important}
+.live-dot{background:#a78bfa!important;box-shadow:0 0 16px rgba(167,139,250,.55)!important}
+.button-primary{background:#a78bfa!important;border-color:#a78bfa!important;color:#100b1b!important}.button-primary span{color:#100b1b!important}.button-primary:hover{background:#c5b5ff!important;border-color:#c5b5ff!important}
+.button-quiet{border-color:rgba(229,219,255,.25)!important;color:#f2edff!important}.button-quiet:hover{border-color:#a78bfa!important;color:#c4b2ff!important}
+.hero-visual{top:5%!important;right:-1%!important;width:64%!important;height:88%!important;opacity:1!important;filter:drop-shadow(0 22px 80px rgba(98,55,183,.16))}
+.hero-visual:before{background:radial-gradient(ellipse,rgba(126,77,235,.24),rgba(26,129,161,.09) 42%,transparent 72%)!important;filter:blur(35px)!important}
+.hero-visual:after{background:radial-gradient(ellipse,rgba(107,67,184,.13),transparent 70%)!important}
+#hero-canvas{width:100%;height:100%;display:block;filter:contrast(1.12) saturate(1.15)}
+.visual-ring{border-color:rgba(167,139,250,.26)!important}.ring-a{border-color:rgba(167,139,250,.46)!important}.ring-b{border-color:rgba(107,220,255,.2)!important}
+.visual-tag{color:#b9b0cc!important}.tag-bottom{border-color:rgba(208,190,255,.22)!important}.tiny-square,.visual-cross{color:#a78bfa!important;background:#a78bfa}
+.section,.intro,.about,.process,.why,.contact{background-color:#08070d!important}
+.services,.collaboration{background-color:#0c0a13!important}
+.section-meta,.service-num,.step-index,.footer-label{color:#9b8db7!important}
+.service-row h3,.project-caption h3,.process-step h3,.services-aside h3{color:#f1ecfa!important}
+.service-row p,.process-step p,.services-aside>p,.project-caption>div>span{color:#aaa3ba!important}
+.service-row,.process-step,.contact-form{border-color:rgba(211,194,255,.14)!important}
+.project-art{box-shadow:0 22px 70px rgba(0,0,0,.25)}
+.manifesto{background:radial-gradient(ellipse at 70% 50%,rgba(100,58,170,.18),transparent 45%),#09070e!important}
+.manifesto-heading em,.manifesto-label{color:#b5a0ff!important}
+.contact-form input,.contact-form select,.contact-form textarea{background:rgba(255,255,255,.035)!important;border-color:rgba(218,202,255,.16)!important;color:#f7f3ff!important}
+.footer{background:#050409!important}.footer-links a,.back-top{color:#b8b0c8!important}
+.reveal{transition-duration:1s,1.05s,1s!important}
+@media(max-width:760px){.hero{background:radial-gradient(ellipse at 70% 65%,rgba(91,55,158,.19),transparent 42%),#08070d!important}.hero-visual{right:-9%!important;bottom:26px!important;top:auto!important;width:105%!important;height:400px!important;opacity:.94!important}.hero-copy{z-index:6!important}.hero-title{font-size:clamp(57px,12.5vw,94px)!important}.hero-foot{z-index:8}.hero-visual:after{inset:4%}}
+@media(max-width:420px){.hero-visual{height:330px!important;bottom:38px!important}.hero{min-height:830px!important}}

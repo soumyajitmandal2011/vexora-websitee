@@ -1,0 +1,10 @@
+/* VEXORA business demo pages — responsive finishing layer */
+:where(a,button,input,select,textarea,[tabindex]):focus-visible{outline:3px solid rgba(112,64,181,.65);outline-offset:4px}
+html{scroll-behavior:smooth;scroll-padding-top:84px}body{overflow-x:clip;-webkit-font-smoothing:antialiased}
+button,input,select,textarea{font:inherit}img{max-width:100%;height:auto}
+.biz-page,.business-page,.demo-toolkit{min-width:0}.demo-toolkit{padding-top:clamp(38px,6vw,82px);padding-bottom:clamp(38px,6vw,82px)}
+.demo-item{border-radius:8px;overflow:hidden;box-shadow:0 12px 30px rgba(49,27,73,.045)}.demo-item:hover{box-shadow:0 18px 36px rgba(49,27,73,.1)}
+.demo-item-body button,.demo-form button{border-radius:5px;transition:transform .2s ease,background-color .2s ease}.demo-item-body button:hover,.demo-form button:hover{transform:translateY(-1px)}
+.demo-controls input,.demo-controls select,.demo-form input,.demo-form select,.demo-form textarea{border-radius:5px;min-height:44px}.demo-form textarea{min-height:112px}
+@media(max-width:760px){.demo-toolkit-head{display:grid;grid-template-columns:1fr;gap:12px}.demo-form-wrap{gap:22px;padding:clamp(18px,4vw,28px)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}

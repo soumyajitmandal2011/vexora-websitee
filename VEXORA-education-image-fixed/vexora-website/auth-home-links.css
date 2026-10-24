@@ -1,0 +1,9 @@
+/* VEXORA V7 — home-to-account navigation */
+.home-auth-links{display:flex;align-items:center;gap:15px;margin-left:auto;white-space:nowrap}
+.home-auth-links a{font:500 10px/1.2 'IBM Plex Mono',monospace;letter-spacing:.08em;text-decoration:none;transition:opacity .2s,transform .2s}
+.home-auth-links a:hover{opacity:.72;transform:translateY(-1px)}
+.home-login-link{color:inherit}
+.home-register-link{display:inline-flex;align-items:center;gap:10px;padding:13px 16px;border:1px solid rgba(130,91,190,.55);color:var(--tool-accent,#7040b5)}
+.home-register-link span{font-size:14px}
+@media(max-width:1050px){.home-auth-links{gap:10px}.home-register-link{padding:11px 12px}.header-cta{display:none}}
+@media(max-width:760px){.home-auth-links{display:none}.mobile-nav a[href="login.html"],.mobile-nav a[href="register.html"]{display:block}}
